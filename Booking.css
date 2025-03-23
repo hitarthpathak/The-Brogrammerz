@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.nav-2 {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+form {
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+form h1 {
+    text-align: center;
+}
+
+.form-row {
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.form-row .label {
+    border: 1px solid gray;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.3rem;
+}
+
+.form-row .input {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+}
+
+.project-summary {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    padding: 0.3rem;
+}
+
+.project-summary textarea {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1rem;
+    padding: 0.3rem;
+    outline: none;
+}
+
+.submit-box {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#submit {
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    padding-top: 3rem;
+}
+
+.socials-box {
+    height: auto;
+    width: auto;
+}
+
+.socials-box h3 {
+    text-align: center;
+}
+
+.socials {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social {
+    height: 2rem;
+    width: 2rem;
+}
+
+.social img {
+    height: auto;
+    width: 100%;
+}
+
+.copyright {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+}

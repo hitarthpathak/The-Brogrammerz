@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.nav-2 {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.team-members {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.team-members .member {
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(130, 130, 130, 0.100);
+    padding: 1rem;
+}
+
+.member .img-box {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box img {
+    height: 100%;
+    width: auto;
+}
+
+.member .info {
+    height: 100%;
+    width: 70%;
+}
+
+.info .links {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.btn-box {
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.btn-box button {
+    border: 2px solid white;
+    height: auto;
+    width: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-box button:hover {
+    background-color: white;
+    color: black;
+}
+
+.socials-box {
+    height: auto;
+    width: auto;
+}
+
+.socials-box h3 {
+    text-align: center;
+}
+
+.socials {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social {
+    height: 2rem;
+    width: 2rem;
+}
+
+.social img {
+    height: auto;
+    width: 100%;
+}
+
+.copyright {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+}

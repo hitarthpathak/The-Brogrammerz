@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.nav-2 {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.introduction {
+    border-bottom: none;
+    height: 30rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-side-1 {
+    height: 100%;
+    width: 50%;
+    background-color: rgba(130, 130, 130, 0.100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-side-1 img {
+    height: 100%;
+    width: auto;
+}
+
+.introduction-side-2 {
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    background-color: white;
+}
+
+.introduction-side-2 h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.introduction-side-2 button {
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.services {
+    border-bottom: none;
+    height: 30rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-side-1 {
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    background-color: white;
+}
+
+.services-side-1 h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services-side-1 li {
+    margin-left: 1rem;
+}
+
+.services-side-2 {
+    height: 100%;
+    width: 50%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+.service-box {
+    height: 15rem;
+    width: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.service {
+    border-radius: 25px;
+    height: 7rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.service:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.languages {
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages-side-1 {
+    height: 100%;
+    width: 50%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+.language-box {
+    height: 10rem;
+    width: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.language-box img {
+    height: 100%;
+    width: auto;
+}
+
+.languages-side-2 {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 1rem;
+}
+
+.languages-side-2 h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.languages-side-2 li {
+    margin-left: 1rem;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.btn-box {
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.btn-box button {
+    border: 2px solid white;
+    height: auto;
+    width: auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-box button:hover {
+    background-color: white;
+    color: black;
+}
+
+.socials-box {
+    height: auto;
+    width: auto;
+}
+
+.socials-box h3 {
+    text-align: center;
+}
+
+.socials {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social {
+    height: 2rem;
+    width: 2rem;
+}
+
+.social img {
+    height: auto;
+    width: 100%;
+}
+
+.copyright {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+}
